@@ -1,0 +1,51 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    display: flex;
+}
+
+img {}
+
+.color {
+    color: #F39C12;
+}
+
+.top-header {
+    width: 50%;
+}
+
+.faltu {
+    margin-top: 10%;
+    margin-left: 5%;
+
+}
+
+.faltu h1 {
+    font-size: 50px;
+    color: #4a4f50;
+}
+
+.top-header p {
+    color: #b3babb;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: -20px;
+
+
+}
+
+.top-header img {
+    width: 480px;
+    margin-top: 10%;
+    margin-left: 5%;
+
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(#F39C12, #D35400);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
