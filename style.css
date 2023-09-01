@@ -28,7 +28,7 @@ img {}
 }
 
 .top-header p {
-    color: #b3babb;
+    color: #a0a3a3;
     font-size: 20px;
     line-height: 25px;
     margin-top: -20px;
@@ -48,4 +48,50 @@ img {}
     background-image: linear-gradient(#F39C12, #D35400);
     padding: 5px 15px;
     border-radius: 5px;
+}
+
+.mid-sec {
+    width: 50%;
+}
+
+.mid-sec img {
+    width: 300px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.faltu2 {
+    margin-top: 10%;
+}
+
+.faltu2 h1 {
+    font-size: 30px;
+    color: #686969;
+}
+
+.faltu2 p {
+    text-align: justify;
+    padding-right: 20%;
+    color: #9b9c9c;
+}
+
+.top-ban {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.sec-third {
+    text-align: center;
+}
+
+.sec-third h1 {
+    font-size: 30px;
+    color: #737575;
+    font-weight: bolder;
+}
+
+.sec-third p {
+    margin: 0% 27%;
+    color: #656666;
 }
