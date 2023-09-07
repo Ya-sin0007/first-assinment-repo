@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-section {
+.flex-container {
     display: flex;
 }
 
@@ -94,4 +94,99 @@ img {}
 .sec-third p {
     margin: 0% 27%;
     color: #656666;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 220px;
+    height: 350px;
+    margin: 5%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-imge {
+    background-color: #a0a3a3;
+    height: 180px;
+    background-size: cover;
+
+}
+
+.food-1 {
+    background-image: url('./images/food/Project\ Cover.jpg');
+    border-radius: 8px;
+}
+
+.food-2 {
+    background-image: url('./images/food/Project\ Cover.png');
+    border-radius: 8px;
+}
+
+.food-3 {
+    background-image: url('./images/food/Project\ Cover1.jpg');
+    border-radius: 8px;
+}
+
+.card h1 {
+    font-size: larger;
+}
+
+.card p {
+    color: #3f3f3f;
+    font-size: small;
+    text-align: justify;
+}
+
+.list-item {
+    display: flex;
+    justify-content: center;
+    margin-left: 13%;
+    margin-right: 13%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.price-item {
+    margin: 5%;
+    width: 150px;
+    height: 100px;
+    margin-top: -10px;
+}
+
+.price-item p {
+    font-size: small;
+    line-height: 5%;
+}
+
+.price-item h1 {
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.last-one {
+    justify-content: center;
+    text-align: center;
+    background-color: #080b11;
+    height: 200px;
+    width: 100%;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+.comolo {
+    color: #F39C12;
+}
+
+.last-one h1 {
+    color: #686969;
+}
+
+.last-one p {
+    color: rgb(147, 157, 165);
+    line-height: 5%;
 }
